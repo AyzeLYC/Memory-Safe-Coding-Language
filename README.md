@@ -15,4 +15,5 @@ float | 8 | 0. | 0. |
 unsigned float | 8 | 0.0 | 0. |
 string | no minimum | 0x00 | no maximum |
 
-## char and string are UTF8 characters by default
+## char uses UTF8 characters by default
+## string is an array of characters
