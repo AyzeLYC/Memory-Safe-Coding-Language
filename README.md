@@ -5,7 +5,6 @@ This repository is the base which compilers will have to follow.
 
 ## Memory Safe Coding Language types
 
---- | --- | --- | --- 
 Type | Bits size | minimum value | maximum value |
 --- | --- | --- | --- |
 bit | 1 | 0 | 1 |
