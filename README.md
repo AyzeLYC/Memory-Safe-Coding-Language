@@ -13,3 +13,4 @@ unsigned int | 8 | 0 | 255 |
 char | 8 | 0x0 | 0x255 |
 float | 8 | 0. | 0. |
 unsigned float | 8 | 0.0 | 0. |
+string | no minimum | 0x0 | no maximum |
