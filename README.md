@@ -5,13 +5,12 @@ This repository is the base which compilers will have to follow.
 
 ## Memory Safe Coding Language types
 
----------------------------------------
-| type             | bits size        |
----------------------------------------
-| int              | 8                |
-| unsigned int     | 8                |
-| char             | 8                |
-| unsigned char    | 8                |
-| float            | 8                |
-| unsigned float   | 8                |
----------------------------------------
+--- | --- | --- | --- 
+Type | Bits size | minimum value | maximum value |
+--- | --- | --- | --- |
+bit | 1 | 0 | 1 |
+int | 8 | -127 | 128 |
+unsigned int | 8 | 0 | 255 |
+char | 8 | 0x0 |  |
+float | 8 | 0. | 0. |
+unsigned float | 8 | 0.0 | 0. |
