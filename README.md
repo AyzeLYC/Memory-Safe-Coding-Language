@@ -16,5 +16,4 @@ unsigned float | 8 | 0.0 | 0. |
 string | no minimum | 0x00 | no maximum |
 array | size of the type | 0x00 | total ram size in bits - the ram used by the OS |
 
-### char uses UTF8 characters by default
 ### string is an array of char
