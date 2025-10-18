@@ -10,6 +10,6 @@ Type | Bits size | minimum value | maximum value |
 bit | 1 | 0 | 1 |
 int | 8 | -127 | 128 |
 unsigned int | 8 | 0 | 255 |
-char | 8 | 0x0 |  |
+char | 8 | 0x0 | 0x255 |
 float | 8 | 0. | 0. |
 unsigned float | 8 | 0.0 | 0. |
