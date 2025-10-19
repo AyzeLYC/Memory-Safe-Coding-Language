@@ -26,4 +26,4 @@ function | function(args) | creates a new function that takes in input some argu
 sizeof | sizeof(args) | returns the size in bits of anything |
 struct | struct {args} | creates a new structure that will hold a specific list of types in order |
 
-## function needs to be transformed by compilers into an assembly label
+### function needs to be transformed by compilers into an assembly label
