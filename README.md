@@ -12,7 +12,7 @@ bit | 1 | 0 | 1 |
 int | 8 | -127 | 128 |
 unsigned int | 8 | 0 | 255 |
 char | 8 | 0x00 | 0xFF |
-float | 4 | -3.4*10-38 | 3.4*10-38 |
+float | 32 | -3.4*10-38 | 3.4*10-38 |
 unsigned float | 8 | 0.0 | 0. |
 string | no minimum | 0x00 | no maximum |
 array | size of the type | 0x00 | total ram size in bits minus the ram used by the OS |
