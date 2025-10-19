@@ -4,9 +4,16 @@
 ### This repository is the base which compilers will have to follow.
 
 
+## Memory Safe Coding Language built in variables
+
+Variable name | Value |
+--- | --- |
+NULL | CPU instruction set default null value |
+
+
 ## Memory Safe Coding Language types
 
-Type | Bits size | minimum value | maximum value |
+Type name | Bits size | minimum value | maximum value |
 --- | --- | --- | --- |
 bit | 1 | 0 | 1 |
 int | 8 | -127 | 128 |
