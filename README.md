@@ -18,9 +18,9 @@ array | size of the type | 0x00 | total ram size in bits minus the ram used by t
 
 ### string is an array of char
 
-## Memory Safe Coding Language built in functions |
+## Memory Safe Coding Language built in functions
 
-function name | function usage | function description
+function name | function usage | function description |
 --- | --- | --- |
 function | function(args) | creates a new function that takes in input some arguments or nothing |
 sizeof | sizeof(args) | returns the size in bits of anything |
