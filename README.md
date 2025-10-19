@@ -18,7 +18,7 @@ Type name | Bits size | minimum value | maximum value |
 bit | 1 | 0 | 1 |
 int | 8 | -127 | 128 |
 unsigned int | 8 | 0 | 255 |
-char | 8 | 0x0 ( NULL ) | 0xFF |
+char | 8 | 0x0 ( NULL ) | 0xFF ( ÿ in ASCII ) |
 float | 32 | -3.4*10-38 | 3.4*10-38 |
 unsigned float | 32 | 0 | 0. |
 string | no minimum | 0x00 | no maximum |
