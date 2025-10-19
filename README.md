@@ -8,7 +8,7 @@
 
 Variable name | Value |
 --- | --- |
-NULL | CPU instruction set default null value |
+NULL | Assembly NULL |
 
 
 ## Memory Safe Coding Language types
