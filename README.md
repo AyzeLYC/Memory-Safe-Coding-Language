@@ -24,3 +24,4 @@ function name | function usage | function description |
 --- | --- | --- |
 function | function(args) | creates a new function that takes in input some arguments or nothing |
 sizeof | sizeof(args) | returns the size in bits of anything |
+struct | struct {args} | creates a new structure that will hold a specific list of types in order |
