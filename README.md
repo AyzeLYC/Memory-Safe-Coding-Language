@@ -8,7 +8,7 @@
 
 Variable name | Value |
 --- | --- |
-NULL | Assembly NULL |
+NULL | Assembly NULL || 0x0 |
 
 
 ## Memory Safe Coding Language types
