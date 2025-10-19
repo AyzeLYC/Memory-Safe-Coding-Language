@@ -3,6 +3,7 @@
 ### This repository is the repository of the Memory Safe Coding Language, it aims at creating a coding language that will be memory safe to prevent memory leaks, and aims at making computers more stable and permit peoples to code things faster and easier.
 ### This repository is the base which compilers will have to follow.
 
+
 ## Memory Safe Coding Language types
 
 Type | Bits size | minimum value | maximum value |
@@ -16,7 +17,8 @@ unsigned float | 8 | 0.0 | 0. |
 string | no minimum | 0x00 | no maximum |
 array | size of the type | 0x00 | total ram size in bits minus the ram used by the OS |
 
-### string is an array of char
+#### string is an array of char
+
 
 ## Memory Safe Coding Language built in functions
 
@@ -26,5 +28,5 @@ function | function function_name(arguments) | creates a new function that takes
 sizeof | sizeof(arguments) | returns the size in bits of anything |
 struct | struct {arguments} | creates a new structure that will hold a specific list of types in order |
 
-### function needs to be transformed by compilers into an assembly label, the function can't be named as one of the built in types and built in functions
-### the sizeof built in function is the sizeof.asm file ( not created yet )
+#### function needs to be transformed by compilers into an assembly label, the function can't be named as one of the built in types and built in functions
+#### the sizeof built in function is the sizeof.asm file ( not created yet )
