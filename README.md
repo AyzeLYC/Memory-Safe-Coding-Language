@@ -22,8 +22,9 @@ array | size of the type | 0x00 | total ram size in bits minus the ram used by t
 
 function name | function usage | function description |
 --- | --- | --- |
-function | function(args) | creates a new function that takes in input some arguments or nothing |
-sizeof | sizeof(args) | returns the size in bits of anything |
-struct | struct {args} | creates a new structure that will hold a specific list of types in order |
+function | function function_name(arguments) | creates a new function that takes in input some arguments or nothing |
+sizeof | sizeof(arguments) | returns the size in bits of anything |
+struct | struct {arguments} | creates a new structure that will hold a specific list of types in order |
 
-### function needs to be transformed by compilers into an assembly label
+### function needs to be transformed by compilers into an assembly label, the function can't be named as one of the built in types and built in functions
+### the sizeof built in function is the sizeof.asm file ( not created yet )
