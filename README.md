@@ -31,12 +31,12 @@ array | size of the type | 0x00 | total ram size in bits minus the ram used by t
 
 function name | function usage | function description |
 --- | --- | --- |
-function | function function_name(arguments) | ```creates a new function that takes in input some arguments or nothing``` |
-sizeof | sizeof(arguments) | ```returns the size in bits of anything``` |
-struct | struct {arguments} | ```creates a new structure that will hold a specific list of types in order``` |
-create_file | createfile(file_full_path, content, text_encoding) | ```creates a file that has a specific name at a specific path ( file_full_path being a string and containing the path at which the file will be created as well as the name of the file ) and pushes the value of content ( content being a string ) inside it using the encoding given in text_encoding ( text_encoding being a string )``` |
-modify_file | modify_file(file_full_path, content, encoding) | ```modify the file ( given at the end of file_full_path ) at the specified path ( given at the start of file_full_path ) and replaces the previous content with the value of content using the encoding given by the developper``` |
-delete_file | delete_file(file_full_path) | ```delete the file ( the name is given at the end of file_full_path ) at the specificied path ( given at the start of file_full_path )``` |
+function | function function_name(arguments) | ``creates a new function that takes in input some arguments or nothing`` |
+sizeof | sizeof(arguments) | ``returns the size in bits of anything`` |
+struct | struct {arguments} | ``creates a new structure that will hold a specific list of types in order`` |
+create_file | createfile(file_full_path, content, text_encoding) | ``creates a file that has a specific name at a specific path ( file_full_path being a string and containing the path at which the file will be created as well as the name of the file ) and pushes the value of content ( content being a string ) inside it using the encoding given in text_encoding ( text_encoding being a string )`` |
+modify_file | modify_file(file_full_path, content, encoding) | ``modify the file ( given at the end of file_full_path ) at the specified path ( given at the start of file_full_path ) and replaces the previous content with the value of content using the encoding given by the developper`` |
+delete_file | delete_file(file_full_path) | ``delete the file ( the name is given at the end of file_full_path ) at the specificied path ( given at the start of file_full_path )`` |
 
 #### function needs to be transformed by compilers into an assembly label, the function can't be named as one of the built in types and built in functions
 #### the sizeof built in function is the sizeof.asm file ( not created yet )
