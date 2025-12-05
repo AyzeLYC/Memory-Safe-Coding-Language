@@ -7,8 +7,8 @@ section .text
         jmp [cx] ; cx contains the address of the function that we need to use
         cmp ax, bx ; ax = the number we want to attain, bx = the current iteration
         jne for_loop ; jump back to the start of the loop if the amount of iterations is not equal to how much time we wnat the loop to go for
-        mov ax, 0
-        mov bx, 0
+        mov ax, 0 ; resets ax
+        mov bx, 0 ; resets bx
         ret ; sends the program back to the function that called the for loop
 
 [x86 32 bits ASM]
