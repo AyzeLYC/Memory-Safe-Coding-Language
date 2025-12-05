@@ -54,6 +54,7 @@ section .text
         mov ax, 0
         mov bx, 0
         ret
+
 [ x86 32 bits asm ]
 section .data
 
@@ -66,10 +67,19 @@ section .text
         mov ax, 0
         mov bx, 0
         ret
+
 [ x86 64 bits asm ]
 section .data
 
 section .text
+    for_loop:
+        inc rbx
+        jmp [rcx]
+        cmp rax, rbx
+        jne for_loop
+        mov rax, 0
+        mov rbx, 0
+        ret
 
 [ x86 128 bits asm ]
 section .data
