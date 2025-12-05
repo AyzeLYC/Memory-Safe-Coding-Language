@@ -46,12 +46,26 @@ section .text
 section .data
 
 section .text
-
+    for_loop:
+        inc bx
+        jmp [cx]
+        cmp ax, bx
+        jne foor_loop
+        mov ax, 0
+        mov bx, 0
+        ret
 [ x86 32 bits asm ]
 section .data
 
 section .text
-
+    for_loop:
+        inc bx
+        jmp [ecx]
+        cmp eax, ebx
+        jne for_loop
+        mov ax, 0
+        mov bx, 0
+        ret
 [ x86 64 bits asm ]
 section .data
 
