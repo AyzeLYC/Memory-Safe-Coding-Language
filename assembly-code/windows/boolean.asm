@@ -1,9 +1,9 @@
 [32 bits x86]
-.data
+section .data
     false equ 0
     true equ 255
     
-.code
+section .text
     
     
     
@@ -12,7 +12,7 @@
     false equ 0
     true equ 255
     
-.code
+section .text
     
     
     
@@ -21,5 +21,4 @@
     false equ 0
     true equ 255
     
-.code
-    
+section .text
